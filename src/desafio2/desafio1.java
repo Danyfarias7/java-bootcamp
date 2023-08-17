@@ -3,7 +3,7 @@ package desafio2;
 import java.util.Date;
 import java.util.Scanner;
 
-public class desafio2 {
+public class desafio1 {
 	
 
 	public static boolean esFechaValida(int date, int topeInferior, int topeSuperior) {
@@ -67,8 +67,9 @@ public class desafio2 {
 			}while(!esFechaValida(year, topeInferior, topeSuperior));
 		 	
 		 	
-		 
-		
+		 // Salida de datos 
+			
+			System.out.println("\n-----------------------------------");
 		 	System.out.println("Fecha Ingresada: " + day + "/" + month + "/" + year);
 		
 		 	if(esAnoBisiesto(month, year) && day > TOPE_MES_BISIESTO) {
@@ -79,7 +80,7 @@ public class desafio2 {
 		 		
 		 	}
 		 
-		
+		 	System.out.println("\n-----------------------------------");
 		 	
 			
 			
